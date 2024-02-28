@@ -1,0 +1,11 @@
+/**
+ * ?tìm hiểu phần bên trong for kia
+ */
+function printGoals(...people){
+    for (const key in object) {
+        if (Object.hasOwnProperty.call(object, key)) {
+            const element = object[key];
+            
+        }
+    }
+}

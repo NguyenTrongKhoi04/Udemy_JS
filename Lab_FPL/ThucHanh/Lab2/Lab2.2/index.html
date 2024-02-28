@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab_2</title>
+</head>
+<body>
+  <textarea id="inputText" rows="5" cols="50" placeholder="Enter underscore variables"></textarea>
+  <button onclick="convertToCamelCase()">Convert</button>
+  <div id="output"></div>
+
+  <script>
+    function convertToCamelCase() {
+      const inputText = document.getElementById('inputText').value;
+      const variables = inputText.split('\n').filter(Boolean); // Chia theo dòng mới và xóa các chuỗi trống
+
+      const result = variables.map(variable => {
+        const words = variable.split('_');
+        const camelCaseWords = words.map((word, index) => (index === 0 ? word : word.charAt(0).toUpperCase() + word.slice(1)));
+
+        return camelCaseWords.join('');
+      });
+
+      const outputDiv = document.getElementById('output');
+      outputDiv.innerHTML = result.map((item, index) => `${item} ${'✅'.repeat(index + 1)}`).join('<br>');
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+// ? TIPS tra cứu thông tin về method =>> lên gg gõ "mdn string ${method bạn muốn tìm}"
