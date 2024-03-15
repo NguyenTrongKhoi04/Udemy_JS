@@ -1,6 +1,6 @@
 // Remember, we're gonna use strict mode in all scripts now!
 'use strict';
-
+// HACK
 /*
 ///////////////////////////////////////
 // Using Google, StackOverflow and MDN
@@ -158,4 +158,3 @@ const printForecast = function (arr) {
 };
 printForecast(data1);
 */
-
