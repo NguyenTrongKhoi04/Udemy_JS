@@ -15,3 +15,5 @@ console.log(x, y);
 // TODO 3)
 const averageAge = (ageJonas + ageSarah) / 2;
 console.log(ageJonas, ageSarah, averageAge);
+
+// * Truy cập vào "MDN Operator Precedence" để biết cách tính điểm của từng toán tử
