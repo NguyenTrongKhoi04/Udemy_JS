@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 //TODO 1)
 const now = 2037;

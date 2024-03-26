@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 // TODO 1)
 // Math operators
@@ -10,9 +10,9 @@ console.log(ageJonas, ageSarah);
 console.log(ageJonas * 2, ageJonas / 10, 2 ** 3);
 // 2 ** 3 means 2 to the power of 3 = 2 * 2 * 2
 
-const firstName = 'Jonas';
-const lastName = 'Schmedtmann';
-console.log(firstName + ' ' + lastName);
+const firstName = "Jonas";
+const lastName = "Schmedtmann";
+console.log(firstName + " " + lastName);
 
 // Assignment operators
 let x = 10 + 5; // 15
@@ -34,8 +34,10 @@ console.log(now - 1991 > now - 2018);
 // TODO 2
 let test = 2;
 let check1 = test++;
-console.log(test);console.log(check1);
+console.log(test);
+console.log(check1);
 
 let test2 = 2;
 let check2 = ++test2;
-console.log(test2);console.log(check2);
+console.log(test2);
+console.log(check2);
