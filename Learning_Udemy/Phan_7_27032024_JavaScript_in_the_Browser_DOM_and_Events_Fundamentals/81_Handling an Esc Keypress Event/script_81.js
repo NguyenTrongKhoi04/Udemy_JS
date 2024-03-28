@@ -21,6 +21,7 @@ for (let i = 0; i < btnsOpenModal.length; i++)
 btnCloseModal.addEventListener('click', closeModal);
 overlay.addEventListener('click', closeModal);
 
+// TODO
 document.addEventListener('keydown', function (e) {
     // ! "e" viết tắt của "event"
   // console.log(e); // ? TIPS: sau khi log => xem kỹ các thuộc tính
